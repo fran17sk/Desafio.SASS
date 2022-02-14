@@ -1,0 +1,43 @@
+/*PIE DE PAGINA*/
+.pie{
+    background-color: $cool-red;
+    padding-top: 30px;
+}
+footer{
+    #redes{
+        display: flex;
+        justify-content: center;
+    }
+    ul{
+        .iconos{
+            width: 40px;
+            height: 40px;
+            margin: 20px;
+            color: #000;
+        }
+        li{
+            &:hover{
+                background-color: rgb(255, 255, 255);
+                color: #000;
+            }
+        }
+    }
+    p{
+        color: white;
+        margin-left: 20px;
+        margin-top: 50px;
+        margin-left: 15%;
+        margin-right: 15%;
+} 
+}
+footer ul li
+#redes{
+    display: flex;
+    justify-content: center;
+}
+.iconos{
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+    color: #000;
+}

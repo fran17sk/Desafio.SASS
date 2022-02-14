@@ -1,0 +1,61 @@
+/*********MEDIA QUERIS*********/
+@media (max-width: 1000px){
+    li{
+        margin: 0px 0px 0px 0px;
+    }
+    li:hover{
+        transform: scale(0.99,0.99);
+        margin-left: 8%;
+    }
+    .intro{
+        height: 400px;
+    }
+    .barilo{
+        background-size: 100% 400px;
+        height: 400px;
+    }
+    .cambo{
+        background-size: 100% 400px;
+        height: 400px;
+    }
+    .vcp{
+        background-size: 100% 400px;
+        height: 400px;
+    }
+    .fotos{
+        background-image: url("../img/fotofonfo.jpg") ;
+        background-size: 100% 350px;
+        height: 350px;
+    }
+    .imgg{
+        height: 400px;
+    }
+}
+@media (max-width: 500px){
+    li{
+        margin: 0px 0px 0px 0px;
+    }
+    .intro{
+        height: 300px;
+    }
+    .titulo{
+        font-size: 40px;
+    }
+    .subtitulo{
+        font-size: 25px;
+    }
+    .imgg{
+        height: 300px;
+    }
+}
+@media (max-width: 600px){
+    .titulo{
+        font-size: 40px;
+    }
+    .subtitulo{
+        font-size: 25px;
+    }
+    .subtitle{
+        font-size: 25px;
+    }
+}

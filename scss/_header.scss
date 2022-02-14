@@ -1,0 +1,80 @@
+/*FONDOS DE PORTADA*/
+.barilo{
+    background-image: url("../img/portada-barilo.jpg") ;
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.cambo{
+    background-image: url("../img/portada-cambo.jpg") ;
+    background-size: 100% 600px;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.vcp{
+    background-image: url("../img/portada-vcp.jpg") ;
+    background-size: 100% 600px;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.fotos{
+    background-image: url("../img/foto-fonfo.jpg") ;
+    background-size: 100% 500px;
+    height: 500px;
+}
+
+/*MENU*/
+nav{
+    div{
+        a{
+            text-decoration: none;
+            color:#d3d3d3;
+            &:hover{
+                color:#d3d3d3
+            }
+        }
+        .title{
+            font-size: 30px;
+        }
+        div{
+            ul{
+                li{
+                    margin: 0px 20px 0px 20px;
+                    &:hover{
+                        background-color: rgb(99, 95, 95);
+                        transform: scale(1.15,1.15);
+                    }
+                }
+                li{
+                    ul{
+                        &:hover{
+                            background-color: white;
+                        }
+                        li{
+                            margin: 0;
+                            padding: 0;
+                            &:hover{
+                                background-color: white;
+                                transform: scale(0.99,0.99);
+                                margin-left:0px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.intro{
+    height: 600px;
+}
+.titulo{
+    color: rgb(255, 0, 0);
+    font-size: 55px;
+    margin-left: 25px;
+}
+.subtitulo{
+    color: #fffffffd;
+    font-size: 36px;
+    margin-left: 15px;
+}

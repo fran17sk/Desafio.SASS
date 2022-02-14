@@ -144,7 +144,9 @@ footer ul li
   height: 400px; }
 
 .imgg {
-  height: 600px; }
+  height: 450px;
+  width: 80%;
+  margin-left: 10%; }
 
 .video {
   height: 500px; }
@@ -277,7 +279,8 @@ main .mar {
     background-size: 100% 350px;
     height: 350px; }
   .imgg {
-    height: 400px; } }
+    height: 400px;
+    margin-left: 7.5%; } }
 
 @media (max-width: 500px) {
   li {
@@ -289,7 +292,8 @@ main .mar {
   .subtitulo {
     font-size: 25px; }
   .imgg {
-    height: 300px; } }
+    height: 250px;
+    margin-left: 5%; } }
 
 @media (max-width: 600px) {
   .titulo {
@@ -297,7 +301,10 @@ main .mar {
   .subtitulo {
     font-size: 25px; }
   .subtitle {
-    font-size: 25px; } }
+    font-size: 25px; }
+  .imgg {
+    height: 350px;
+    margin-left: 5%; } }
 
 /*ANIMACIONES*/
 .tituloanimado {

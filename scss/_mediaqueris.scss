@@ -29,6 +29,7 @@
     }
     .imgg{
         height: 400px;
+        margin-left: 7.5%;
     }
 }
 @media (max-width: 500px){
@@ -45,7 +46,8 @@
         font-size: 25px;
     }
     .imgg{
-        height: 300px;
+        height: 250px;
+        margin-left: 5%;
     }
 }
 @media (max-width: 600px){
@@ -57,5 +59,9 @@
     }
     .subtitle{
         font-size: 25px;
+    }
+    .imgg{
+        height: 350px;
+        margin-left: 5%;
     }
 }

@@ -8,7 +8,7 @@
         text-decoration-color: none;
     }
 }
-/*********IMPORTACIONES*********/
+//*********IMPORTACIONES*********
 @import "colores" ;
 @import "animaciones";
 @import "header";
@@ -28,7 +28,7 @@ main{
         div{
             div{
                 .subti{
-                    color: white;
+                    color: $alt-col;
                 }
                 a{
                     .imagenes{
@@ -38,10 +38,10 @@ main{
                     .paquetes{
                         display: flex;
                         justify-content: center;
-                        color: rgb(255, 255, 255);
+                        color: $alt-col;
                         font-size: 25px;
                         border: solid 2px;
-                        border-color: red;
+                        border-color:$cool-red;
                         padding: 10px;
                         margin-top: 15px;
                         min-width: 250px;
@@ -49,11 +49,11 @@ main{
                     .paque{
                         display: flex;
                         justify-content: center;
-                        color: rgb(255, 255, 255);
+                        color:$alt-col;
                         font-size: 16px;
-                        background-color: red;
+                        background-color: $cool-red;
                         border: solid 2px;
-                        border-color: white;
+                        border-color: $alt-col;
                         margin-left: 40px;
                         margin-right: 40px;
                         padding: 20px;
@@ -61,7 +61,7 @@ main{
                 }
                 div{
                     .trans{
-                        color: rgb(255, 255, 255);
+                        color:$alt-col;
                         font-size: 30px;
                         margin: 20px 0px 10px 20px;
                         width: 460px;
@@ -81,18 +81,18 @@ main{
         height: 30px;
         margin-left: 20%;
         padding-bottom: 5px;
-        color: rgba(255, 0, 0, 0.993);
+        color: $cool-red;
         font-size: 22px;
         font-family: 'PT Sans Narrow', sans-serif;
     }
     input::placeholder {
-        color: red;
+        color: $cool-red;
         font-size: 1.2em;
         font-style: italic;
     }
     .button{
-        background-color: red;
-        color: white;
+        background-color: $cool-red;
+        color: $alt-col;
         font-size: 26px;
         width: 100px;
         height: 50px;

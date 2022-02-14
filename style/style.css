@@ -7,7 +7,6 @@
     text-decoration: none;
     text-decoration-color: none; }
 
-/*********IMPORTACIONES*********/
 /*ANIMACIONES*/
 .tituloanimado {
   animation-name: titulo;
@@ -27,11 +26,11 @@
 
 @keyframes titleanime {
   0% {
-    color: red; }
+    color: rgba(255, 0, 0, 0.993); }
   50% {
     color: grey; }
   100% {
-    color: white; } }
+    color: #fffffffd; } }
 
 .animacion {
   animation-name: animame;
@@ -43,9 +42,9 @@
   0% {
     background-color: #000; }
   25% {
-    background-color: red; }
+    background-color: rgba(255, 0, 0, 0.993); }
   50% {
-    background-color: white;
+    background-color: #fffffffd;
     color: black;
     border: solid 2px black; }
   75% {
@@ -55,7 +54,7 @@
   transform: scale(1.05, 1.05); }
 
 .color :hover {
-  color: white; }
+  color: #fffffffd; }
 
 /*FONDOS DE PORTADA*/
 .barilo {
@@ -84,9 +83,9 @@
 /*MENU*/
 nav div a {
   text-decoration: none;
-  color: #d3d3d3; }
+  color: #fffffffd; }
   nav div a:hover {
-    color: #d3d3d3; }
+    color: #fffffffd; }
 
 nav div .title {
   font-size: 30px; }
@@ -98,13 +97,13 @@ nav div div ul li {
     transform: scale(1.15, 1.15); }
 
 nav div div ul li ul:hover {
-  background-color: white; }
+  background-color: #fffffffd; }
 
 nav div div ul li ul li {
   margin: 0;
   padding: 0; }
   nav div div ul li ul li:hover {
-    background-color: white;
+    background-color: #fffffffd;
     transform: scale(0.99, 0.99);
     margin-left: 0px; }
 
@@ -112,7 +111,7 @@ nav div div ul li ul li {
   height: 600px; }
 
 .titulo {
-  color: red;
+  color: rgba(255, 0, 0, 0.993);
   font-size: 55px;
   margin-left: 25px; }
 
@@ -137,11 +136,11 @@ footer ul .iconos {
   color: #000; }
 
 footer ul li:hover {
-  background-color: white;
+  background-color: #fffffffd;
   color: #000; }
 
 footer p {
-  color: white;
+  color: #fffffffd;
   margin-left: 20px;
   margin-top: 50px;
   margin-left: 15%;
@@ -239,7 +238,7 @@ main .subtitle {
   margin-top: 30px; }
 
 main div div div .subti {
-  color: white; }
+  color: #fffffffd; }
 
 main div div div a .imagenes {
   width: 100%;
@@ -248,10 +247,10 @@ main div div div a .imagenes {
 main div div div a .paquetes {
   display: flex;
   justify-content: center;
-  color: white;
+  color: #fffffffd;
   font-size: 25px;
   border: solid 2px;
-  border-color: red;
+  border-color: rgba(255, 0, 0, 0.993);
   padding: 10px;
   margin-top: 15px;
   min-width: 250px; }
@@ -259,17 +258,17 @@ main div div div a .paquetes {
 main div div div a .paque {
   display: flex;
   justify-content: center;
-  color: white;
+  color: #fffffffd;
   font-size: 16px;
-  background-color: red;
+  background-color: rgba(255, 0, 0, 0.993);
   border: solid 2px;
-  border-color: white;
+  border-color: #fffffffd;
   margin-left: 40px;
   margin-right: 40px;
   padding: 20px; }
 
 main div div div div .trans {
-  color: white;
+  color: #fffffffd;
   font-size: 30px;
   margin: 20px 0px 10px 20px;
   width: 460px; }
@@ -289,13 +288,13 @@ main .formulario {
   font-family: 'PT Sans Narrow', sans-serif; }
 
 main input::placeholder {
-  color: red;
+  color: rgba(255, 0, 0, 0.993);
   font-size: 1.2em;
   font-style: italic; }
 
 main .button {
-  background-color: red;
-  color: white;
+  background-color: rgba(255, 0, 0, 0.993);
+  color: #fffffffd;
   font-size: 26px;
   width: 100px;
   height: 50px;

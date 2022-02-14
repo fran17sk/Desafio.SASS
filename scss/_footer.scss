@@ -1,3 +1,4 @@
+@import "colores";
 /*PIE DE PAGINA*/
 .pie{
     background-color: $cool-red;
@@ -17,13 +18,13 @@ footer{
         }
         li{
             &:hover{
-                background-color: rgb(255, 255, 255);
+                background-color: $alt-col;
                 color: #000;
             }
         }
     }
     p{
-        color: white;
+        color: $alt-col;
         margin-left: 20px;
         margin-top: 50px;
         margin-left: 15%;

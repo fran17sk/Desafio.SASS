@@ -1,3 +1,4 @@
+@import "colores";
 /*FONDOS DE PORTADA*/
 .barilo{
     background-image: url("../img/portada-barilo.jpg") ;
@@ -28,9 +29,9 @@ nav{
     div{
         a{
             text-decoration: none;
-            color:#d3d3d3;
+            color:$alt-col;
             &:hover{
-                color:#d3d3d3
+                color:$alt-col;
             }
         }
         .title{
@@ -48,13 +49,13 @@ nav{
                 li{
                     ul{
                         &:hover{
-                            background-color: white;
+                            background-color: $alt-col;
                         }
                         li{
                             margin: 0;
                             padding: 0;
                             &:hover{
-                                background-color: white;
+                                background-color: $alt-col;
                                 transform: scale(0.99,0.99);
                                 margin-left:0px;
                             }
@@ -69,12 +70,12 @@ nav{
     height: 600px;
 }
 .titulo{
-    color: rgb(255, 0, 0);
+    color: $cool-red;
     font-size: 55px;
     margin-left: 25px;
 }
 .subtitulo{
-    color: #fffffffd;
+    color: $alt-col;
     font-size: 36px;
     margin-left: 15px;
 }

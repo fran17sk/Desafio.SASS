@@ -1,3 +1,4 @@
+@import "colores";
 /*ANIMACIONES*/
 .tituloanimado{
     animation-name: titulo;
@@ -19,13 +20,13 @@
 }
 @keyframes titleanime{
     0%{
-        color: red;
+        color: $cool-red;
     }
     50%{
         color: grey;
     }
     100%{
-        color: white;
+        color: $alt-col;
     }
 }
 .animacion{
@@ -39,10 +40,10 @@
         background-color: #000;
     }
     25%{
-        background-color: red;
+        background-color: $cool-red;
     }
     50%{
-        background-color: white;
+        background-color: $alt-col;
         color: black;
         border: solid 2px black;
     }
@@ -54,5 +55,5 @@
     transform: scale(1.05,1.05);
 }
 .color :hover{
-    color: white;
+    color: $alt-col;
 }
